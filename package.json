@@ -1,0 +1,26 @@
+{
+  "name": "lr4-6_yarosh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-telegram-api": "^0.4.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemailer": "^6.9.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "nodemon": "^2.0.20"
+  }
+}
